@@ -1,0 +1,245 @@
+
+body {
+    color: #000305;
+    font-family: sans-serif, Arial;
+    text-align: left;
+    margin: 0px;
+}
+
+h2 {
+    font-weight: normal;
+    line-height: 1.1;
+    margin-bottom: .8em;
+}
+
+a:link, a:visited {
+    color: dodgerblue;
+    padding: 0 1px;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    background-color: dodgerblue;
+    color: #fff;
+    text-decoration: none;
+}
+
+.mainHeader img{
+    width: 15%;
+    height: auto;
+    margin: 10px auto 10px auto
+}
+
+.mainHeader h2{
+    float:right;
+    display: inline;
+}
+
+.leftSide {
+    float: left;
+    display: inline;
+    margin-top: 2px;
+    font-size: 1.143em;
+}
+
+.rightSide {
+    float: right;
+    display: inline;
+    margin-top: 2px;
+    font-size: 1em;
+}
+
+.naviBar {
+    background: #666;
+    height: 45px;
+    line-height: 30px;
+    margin: 0 auto 20px auto;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.mainHeader a:link,
+.mainHeader a:visited,
+.rightSide{
+    color: #fff;
+    display: inline-block;
+    height: 30px;
+    padding: 5px 23px;
+    text-decoration: none;
+}
+
+.mainHeader div div a {
+    border-radius: 5px;
+}
+
+.content{
+    width:77%;
+    float:left;
+}
+
+aside{
+    width:19%;
+    float:right;
+}
+
+.top-sidebar button{
+    visibility: hidden;
+}
+
+.top-sidebar, .middle-sidebar, .bottom-sidebar, .topcontent, .bottomcontent{
+    border-radius: 10px;
+}
+
+.top-sidebar, .middle-sidebar, .bottom-sidebar{
+    background-color: rgb(243, 243, 243);
+    padding: 20px;
+    margin: 0px 5px 10px 10px;
+    width: 100%;
+}
+
+.topcontent, .bottomcontent{
+    background-color: rgb(243, 243, 243);
+    padding: 20px;
+}
+
+.topcontent{
+    width: 65%;
+    float:left;
+    margin: 0px 5px 20px 0px;
+}
+
+.bottomcontent{
+    width:27%;
+    float:right;
+    
+}
+
+.top-sidebar img{
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.DOM {
+    text-align: right;
+    width:50%;
+    margin-left: auto;
+    margin-bottom: auto
+}
+
+.DOM ul{
+    list-style-type: none;
+    padding:0;
+    margin:0
+}
+
+.DOM ul li{
+    display: inline;
+}
+
+.white{
+    background-color: white;
+}
+
+.grey{
+    background-color: darkgray;
+}
+
+.blue{
+    background-color: rgb(151, 196, 255);
+}
+
+.yellow{
+    background-color: rgb(255, 248, 151);
+}
+
+#larger{
+    font-size:larger;
+}
+
+#normal{
+    font-size:1em;
+}
+
+#smaller{
+    font-size:smaller;
+}
+
+.mainContent{
+    width: 100%;
+    overflow: hidden;
+}
+
+footer{
+    width:100%;
+    text-align: center;
+    background-color: #666;
+    color: floralwhite;
+    padding:5px 0px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+/* .active{
+    background-color: rgba(30, 143, 255, 0.521);
+    border-radius: 5px;
+    font-weight: bold;
+} */
+
+.settings{
+    text-align: left;
+}
+
+.smallCont{
+    visibility: hidden;
+}
+
+@media (min-width: 769px) and (max-width: 1399px) {
+    .content, aside {
+        
+        width: 90%;
+        float: none;
+        margin: auto;
+    }
+
+    .topcontent, .bottomcontent {
+        padding: 5px 25px 5px 25px;
+        margin: auto;
+        margin-bottom: 20px;
+        width: 90%;
+        float: none;
+    }
+
+    .top-sidebar, .middle-sidebar, .bottom-sidebar {
+        padding: 5px 25px 5px 25px;
+        margin: auto;
+        margin-bottom: 20px;
+        width: 90%;
+        float: none;
+    }
+
+    .mainFooter {
+        width: 90%;
+        margin: auto;
+    }
+
+    .mainHeader, .control {
+        width: 85%;
+        margin:auto;
+    }
+
+    .buttons{
+        visibility: hidden;
+    }
+
+    .smallCont {
+        visibility: visible;
+    }
+    .rightSide{
+        width: 20%;
+    }
+
+
+
+}

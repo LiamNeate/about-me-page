@@ -1,0 +1,93 @@
+
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>My Profile Page</title>
+		<link rel = "stylesheet" href="aboutme.css" type = "text/css" />
+		<script src="dom.js" defer></script>
+		
+    </head>
+	<body>
+		<section class= 'control'><header class="mainHeader">
+			<img id='logoObject' src="assests/ntu-logo.png?_&amp;d2lSessionVal=P0Y3GPdnMfRzk31JkuJPx1NX8&amp;ou=793910" alt = "NTU Logo" title = "NTU Logo">
+			<!-- <section class= "DOM">
+				<ul>
+					<li class='fontInc'><a href="#">A+</a></li>
+					<li class='fontReset'><a href="#">A</a></li>
+					<li class='fontDec'><a href="#">A-</a></li>
+					<li class='dark'><a id = 'dark' href="#"><span>&#9632;</span></a></li>
+					<li class='light'><a id = 'dark' href="#"><span>&#9632;</span></a></li>
+				</ul>
+			</section> -->
+            <div class="naviBar">
+                <div class="leftSide">
+                    <section class='buttons'>
+                        <a href="aboutme.html">About me</a>
+                        <a href="cv.html">CV</a>
+                        <a href="index.html">Back</a>
+                    </section>
+                    <a href="#" class="smallCont"><span>&#9776;</span></a>
+                </div>
+                <div class="rightSide">
+                    Background Colour:
+                    <select id="colourSelect" onChange="updateColour()">
+                        <option value="white" selected>White</option>
+                        <option value="grey">Grey</option>
+                        <option value="blue">Blue</option>
+                        <option value="yellow">Yellow</option>
+                    </select>
+                    Font size:
+                    <select id='fontSize' onChange='updateSize()'>
+                        <option value="reg" selected>Regular</option>
+                        <option value="small">Small</option>
+                        <option value="large">Large</option>
+                    </select>
+                </div>
+            </div>
+		</header></section>
+        <section class = "mainContent">
+            <section class = "content">
+                <article class = "topcontent">
+                <h2>Liam Neate</h2>
+                    <p>An open-minded, inspired and focused University student, currently studying Software Engineering, looking to become a full-time Software Engineer. I am always looking for ways to improve myself and stretch myself to do more. I am currently in my second year of university.<br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in iaculis mi. Aliquam erat volutpat. Morbi in sapien mauris. Mauris semper tristique tellus, at aliquet lorem placerat et. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris dictum in ex vel pharetra. Fusce vitae diam non orci faucibus molestie. Donec ut lectus nisl. <br><br>Nam ac laoreet urna. Cras dignissim, ligula ac tincidunt lacinia, nulla magna pretium massa, ac bibendum ipsum augue eget ipsum. Nunc a tincidunt mauris. Sed interdum quam nec nisl maximus viverra. Donec consequat dui non rhoncus eleifend. Donec ut aliquam diam, id luctus purus. Ut varius tempus luctus. Nam finibus ut tellus et lobortis.<br><br>Vestibulum dui est, dictum sed quam sed, vehicula lobortis diam. Sed eget mattis dui. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam erat volutpat. Praesent felis tellus, sodales fringilla purus in, suscipit molestie magna. Nam non nisi sodales, ullamcorper leo id, commodo massa. Morbi quis pretium ipsum. Sed tincidunt semper velit a tempus. Maecenas malesuada mi eu consectetur varius. Aliquam ultricies aliquam leo.
+                    </p>
+                </article>
+                <article class = "bottomcontent">
+                <h2>Current modules</h2>
+                    <ul>
+                        <li>SOFT20091 - Software Design & Implementation</li>
+                        <li>SOFT20101 - Info & Database Engineering</li>
+                        <li>SOFT20111 - Software Engineering</li>
+                        <li>SOFT20181 - Internet Application Programming</li>
+                        <li>ISYS20182 - Practial Project Managament & Professional Development</li>
+                        <li>SOFT20081 - Systems Software</li>
+                                        
+                    </ul>
+                </article>
+            </section>
+            <aside>
+                <aside class = "top-sidebar">
+                    <button id="reset">Reset</button>
+                    <img src="assests/me.png?_&amp;d2lSessionVal=P0Y3GPdnMfRzk31JkuJPx1NX8&amp;ou=793910" alt = "my picture" title = "my picture"/>
+                </aside>
+                <aside class = "middle-sidebar">
+                    <h2>Useful Links</h2>
+                    <ul>
+                        <li><a href = "https://www.ntu.ac.uk/study-and-courses/academic-schools/science-and-technology">Science and Technology</a></li>
+                        <li><a href = "https://www.ntu.ac.uk/">Nottingham Trent University</a></li>
+                    </ul>
+                    
+                </aside>
+                <aside class = "bottom-sidebar">
+                    <h2>Contact Me</h2>
+                    <p>You can contact me by</p>
+                    <ul><li>Email : N0919032@my.ntu.ac.uk</li>
+                        <li>Phone : 07401 749337</li>
+                    </ul>
+                </aside>
+                
+            </aside>
+        </section>
+		<footer class="mainFooter">&copy; Department of Computer Science, Nottingham Trent University</footer>
+	</body>
+</html>
