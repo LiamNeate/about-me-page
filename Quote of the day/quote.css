@@ -1,0 +1,15 @@
+.mainHeading{
+    background:grey;
+}
+
+img{
+    width: 50%;
+}
+
+a{
+   font-size: 40px;
+}
+
+.left, .right{
+    font-size: 120px;
+}

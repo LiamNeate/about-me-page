@@ -1,0 +1,58 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Job Search Form</title>
+    <link rel="stylesheet" href="form.css" type="text/css" />
+    <script src="script/jquery.js"></script>
+    <script src="script/form.js" defer></script>
+</head>
+<body>
+    <section class='formcontainer'>
+        <h1><a id="collapse" href="">+ </a>Online Job Search</h1>
+        <form class="mainForm" method="post">
+
+            <fieldset>
+                <legend>Contact Information</legend>
+                <p><label for="userName" class="contact" accesskey="N">Name:</label><input pattern="[A-Za-z].{6,10}" title="Must be between 6 and 10 chars" placeholder="John Doe" required="required" type="text" size="30" name="userName" id='userName' autofocus></p>
+                <p><label for="email" class="contact">Email:</label><input pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}" placeholder="john.doe@email.com" required="required" type="text" size="30" name="email" id='email'></p>
+                <p><label for="phone" class="contact">Phone:</label><input pattern="0+[0-9]{10}" placeholder="07123 456789" required="required" type="text" size="30" name="phone" id='phone'></p>
+            </fieldset>
+
+            <fieldset class="area">
+                <legend>Select Your Area(s) of Interest:</legend>
+                <p>
+                    <input type="checkbox" name="jobtitle" value="Frontend Development" /><label class="interest">Frontend Web Development</label>
+                    <input type="checkbox" name="jobtitle" value="Backend Development" /><label class="interest">Backend Web Development</label>
+                </p>
+                <p>
+                    <input type="checkbox" name="jobtitle" value="Full Stack Development" /><label class="interest">Full Stack Web Development</label>
+                    <input type="checkbox" name="jobtitle" value="Mobile App Development"> <label class="interest">Mobile Application Development</label>
+                </p>
+            </fieldset>
+
+            <p>
+                Select the type of position you desire:
+                <select name="position">
+                    <option>Part-time contract</option>
+                    <option>Full-time contract</option>
+                    <option>Part-time permanent</option>
+                    <option>Full-time permanent</option>
+                </select>
+            </p>
+
+            <p>
+                Are you willing to relocate?
+                <label>Yes</label><input type="radio" value="yes" name="relocate" />
+                <label>No</label><input type="radio" value="no" name="relocate" />
+            </p>
+
+            <p>
+                <input class="jobaction" type="submit" value="Submit" />
+                <input class="jobreset" type="reset" value="Clear" />
+            </p>
+            <p id="msg"></p>
+        </form>
+    </section>
+</body>
+</html>
