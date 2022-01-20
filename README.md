@@ -1,2 +1,3 @@
-# about-me-page
-A variety of html pages that I am using to learn JavaScript
+# "About me" Pages
+
+This repository contains a variety of HTML pages that I have used to experiment with JavaScript. Each page tries a different part of JavaScript.
